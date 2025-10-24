@@ -1,0 +1,43 @@
+inicio
+
+	escreva ("digite um numero para saber se é menor que 10: ")
+	leia (num)
+
+	se num > 10 então faça
+	escreva ("O numero é menor que 10")
+	senão
+	escreva ("O numero é maior que 10")
+
+fim
+
+
+inicio
+
+	num = 1
+	para num < 10 faça
+	num = num + 1
+
+	retorne = num
+
+	num = 10
+	retorne = 0
+
+fim
+
+
+inicio
+
+	escreva ("escreva um numero")
+	leia (num1) 
+	escreva ("escreva um numero")
+	leia (num2)
+	escreva ("escreva um numero")
+	leia (num3) 
+
+	faça:
+	soma = num1 + num2 + num3
+	media = soma/3
+
+	escreva ("A soma é : ",soma," e a média é: " media)
+
+fim
